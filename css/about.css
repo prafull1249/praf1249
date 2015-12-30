@@ -297,6 +297,14 @@ div#bachelors h3,div#masters h3{
 .carousel{
 	margin-top: 20px;
 }
-.carousel-inner .item, .carousel-inner .item img{
-	min-height: 400px;
+#carousel-example-generic, .carousel-inner,.carousel-inner .item, .carousel-inner .item img{
+	max-height: 540px;
+	max-width: 800px;
+	margin-right: 0px;
+}
+
+.carousel-inner .item.active{
+	border-color: #111;
+	border:4px;
+
 }
