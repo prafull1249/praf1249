@@ -109,13 +109,15 @@ div.col-md-12.education, div.col-md-12.workex{
 
 
 .workex li{
-	color: #111;
+	color: #f5f5f5;
 	max-width: 800px;
 	padding: 5px 5px 5px 5px;
+	text-shadow: 2px 2px 5px #000;
 }
 
 .workex .col-md-10 .col-md-7 h2, .workex  .col-md-10 .col-md-7 p{
-	color: #111;
+	color: #f5f5f5;
+	text-shadow: 2px 2px 5px #000;
 }
 
 div.col-md-12.workex{
@@ -125,9 +127,22 @@ div.col-md-12.workex{
 	font-size: 18px;
 }
 
+.experience{
+	border:4px;
+	border-style: ridge;
+	border-color: #999;
+	border-radius: 4px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	background: #555;
+}
+
 .samsung{
 	min-height: 500px;
 	min-width: 500px;
+	border:4px;
+	border-style: ridge;
+	border-color: #999;
 	border-radius: 150px;
 }
 
@@ -138,15 +153,40 @@ div#bachelors,div#masters{
 	vertical-align: middle;
 	text-align:center;
 	display: block;
+	border:4px;
+	border-color: #999;
+	border-style: ridge;
+	border-radius: 4px;
+
 }
 
 
-.picframebach, .picframemast, .courses {
+.picframebach, .picframebach_proj , .picframemast, .courses {
 	padding-left: 0px;
 	background:#333;
 	padding-top: 10px;
 	display: none;
 	text-align: center;
+}
+
+.project{
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border-style: ridge;
+	border-color: #777;
+	background:#333;
+	text-shadow: 2px 2px 5px #000;
+}
+
+
+
+#picframe_proj .picframebach_proj, .project{
+	list-style: none;
+	text-align: left;
+	font-size:17px;
+
 }
 
 #picframe #vnit img, #picframe #asu img{
@@ -302,10 +342,24 @@ div#bachelors h3,div#masters h3{
 .carousel{
 	margin-top: 20px;
 }
+
+
+.carousel-inner{
+	border: 3px;
+	border-color: #888;
+	border-style: ridge;
+	border-radius: 5px;
+}
+
 #carousel-example-generic, .carousel-inner,.carousel-inner .item, .carousel-inner .item img{
 	max-height: 540px;
 	margin-right: 0px;
 	width: 100%;
+}
+
+.academic, .professional{
+	text-align: left;
+	padding: 30px;
 }
 
 .carousel-inner .item.active{
@@ -317,32 +371,37 @@ div#bachelors h3,div#masters h3{
 	color:#f5f5f5;
 }
 
-.technicalskills .skillitem h3{
+.technicalskills .skillitem h3, .technicalskills .skillitem hr, .technicalskills .skillitem{
+	text-shadow: 2px 2px 5px #000;
+}
+
+.technicalskills .skillitem h3,.technicalskills .skillitem hr{
 	font-size: 24px;
-	color: #f5f5f5;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 7px;
 }
 
 .technicalskills {
 	text-align: center;
 }
 
-.technicalskills .skillitem {
+.skillitem {
 	font-size: 24px;
 	border-radius: 5px;
 	background:#555;
-	border-color: #111;
-	border:60px;
+	border:3px;
 	margin: 20px;
 	color: #f5f5f5;
 	min-height: 250px;
+		border-style: ridge;
+	border-color: #999;
 }
 
 .row2 .technicalskills .skillitem {
 	font-size: 24px;
 	border-radius: 5px;
 	background:#555;
-	border-color: #111;
-	border:60px;
 	margin: 20px;
 	color: #f5f5f5;
 	min-height: 100px;
@@ -351,4 +410,13 @@ div#bachelors h3,div#masters h3{
      float: none;
      margin-left: auto;
      margin-right: auto;
+}
+
+.professional h3, .academic h3{
+	color: #f5f5f5;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.meetme{
+	padding-left:10px;
 }

@@ -29,6 +29,9 @@
             <div class="navbar-header">
               <a class="navbar-brand" href="#">Prafull Gaikwad</a>
             </div>
+            <div>
+              <a class="navbar-brand" href="img/resume.pdf">Download Resume</a>
+            </div>            
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
@@ -44,7 +47,7 @@
    
 
           <div class="container-fluid text-center">
-            <div class="jumbotron alternate">
+            <div class="jumbotron">
               <div class="row">
                 <div class="col-md-12 headline ">
                   <h1>Technical Skills</h1>
@@ -52,16 +55,16 @@
                 </div>
                 <div class="col-md-11 col-md-offset-1 technicalskills text-center">
                 <div class="col-md-3 skillitem programming">
-                  <p><h3>Programming expertise: </h3>Data structures, Algorithms, Object oriented programming</p>     
+                  <p><h3>Programming expertise: </h3> <hr/>Data structures, Algorithms, Object oriented programming</p>     
 
                 </div>
                 <div class="col-md-4 skills skillitem ">
-                   <p><h3>Skills sets :</h3>Javascript, Spring Framework, Servlets, jQuery, PHP, Linux kernel development and device drivers, Android
+                   <p><h3>Skills sets :</h3><hr/>Javascript, Spring Framework, Servlets, jQuery, PHP, Linux kernel development and device drivers, Android
                 Power optimization, shell scripting, operating systems , AGILE and SCRUM.</p>     
 
                 </div>
                 <div class="col-md-3 languages skillitem  ">
-                  <p><h3>Programming languages: </h3> C, C++ , Java, Html, CSS, python, jquery, PHP</p>   
+                  <p><h3>Programming languages: </h3> <hr/>C, C++ , Java, Html, CSS, python, jquery, PHP</p>   
                 </div>
                 </div>
                 </div>
@@ -69,11 +72,11 @@
                 <div class="row row2">
                 <div class="col-md-9 col-md-offset-3 technicalskills">
                 <div class="col-md-3 OS skillitem ">
-                  <p><h3>Operating systems: </h3> Android, Ubuntu</p>   
+                  <p><h3>Operating systems: </h3> <hr/>Android, Ubuntu</p>   
 
                 </div>
                 <div class="col-md-3 version_ctrl skillitem ">
-                  <p><h3> Version Control Software: </h3> Git,Perforce</p>  
+                  <p><h3> Version Control Software: </h3> <hr/>Git,Perforce</p>  
                 </div>
                 
                 </div> <!--- EDUCATION -->
@@ -81,7 +84,90 @@
               </div>  <!--row -->
             </div>  <!-- jumbotron -->
 
+           <div class="jumbotron alternate">
+              <div class="row">
+                <div class="col-md-12 headline ">
+                  <h1>Projects</h1>
+                  <hr/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="container text-center">
+                    <div class=" col-md-6 academic">
+                        <h3>ACADEMIC</h3><hr/>
+                             
+                          <div id="picframe_proj">
+                          <div class=" col-md-12 project" id="meetme"><h4> MeetME ( Meeting scheduler application like doodle ) </h4>
+                            <ul class="picframebach_proj">
+                                <li>Designed and developed a web application in JAVA, jquery, JSP,mySQL1 which checks limitations of Doodle using Spring Framework. – (https://github.com/prafull1249/MeetME_webApplication)</li>
+                                <li>Implemented an algorithm which automatically delivers the meeting time according to attendee’s convenience and
+                                  handles time zones effectively.</li>
+                                <li>Working on enhancing the application by integrating node.js in it(handling time zones, integrating CRON job).</li>
+                            </ul>
+                          </div>
+                        </div>   
 
+                        <div id="picframe_proj">
+                        <div class=" col-md-12 project" id="opencl"><h4>Implementation of Gaussian and Sobel filters using OPENCL</h4>
+                          <ul class="picframebach_proj">
+                              <li>The idea behind the project was to use GPU for general purpose computation(GPGPU) for high performance. We chose the standard algorithms of Gaussian and Sobel filters which includes intensive calculations to harness the power of GPU for computation using OPENCL library (initially developed by Apple Inc). It involved a profound understanding of the GPU hardware and a meticulous study of how data parallelism can be exploited using the computational units of GPU.</li>
+                          </ul>
+                          </div>
+                        </div>                         
+                    </div>
+                    <div class=" col-md-6  professional">
+                       <h3> PROFESSIONAL </h3> <hr/>
+                        <div class=" col-md-12 project" id="shark"><h4>SHARK RnD project-Spreadtrum Comm., Shanghai</h4>
+                          <div id="picframe_proj">
+                          <ul class="picframebach_proj">
+                            <li><h4>Samsung Engineering labs, Noida, India </h4></li>
+                            <li>1. Developed a platform wrapper driver SPA (Samsung power and accessories ) and integrating and porting a Charging/Fuelguage and MUIC device drivers to co-ordinate with SPA to develop a Battery monitor mechanism.</li>
+                            <li>Optimized power consumption in sleep and idle mode by configuring Dialog PMIC D2200 and regulators.</li>
+                          </ul>
+                          </div>
+                        </div>
+                        <div class=" col-md-12 project" id="kanas"><h4>Samsung Galaxy Core 2, SEL-NOIDA</h4>
+                          <div id="picframe_proj">
+                          <ul class="picframebach_proj">
+                            <li><h4>Samsung Engineering labs, Noida, India </h4></li>
+                            <li>1. Implemented I2C-gpio(bit-banging) driver used for communication by Richtek MUIC RT8973 driver and charging fuelgauge IC RT5033 in Sboot( Samsung's proprietary boot-loader)</li>
+                            <li>2. Developed mainly the temperature control modules and battery swelling mechanism in the sec-battery.Contributed to development of a platform wrapper driver SEC-Battery. </li>
+                            <li>3. Integrated and Ported a Richtek charging/Fuelgauge(RT5033 IC) and MUIC(RT8973 IC) device drivers to work in co-ordination with SEC- Battery module.  </li>
+                            <li>4. Stabilization of DCDC LDOs like VDD_ARM and VDD_CORE in PMIC SC2723s to prevent stability issues.</li>
+                            <li>5.Resolved the most critical issue - Optimization of power consumption in sleep mode (Airplane and non airplane mode) and in idle mode with screen on.</li>
+                            <li>6. Debug issues while factory production mainly in power management module like increase in sleep current, UART detection problem, Device lockup etc.</li>
+                          </ul>
+                          </div>
+                        </div>
+                        <div class=" col-md-12 project" id="corsicave"><h4>Corsica VE(Samsung galaxy pocket),Suwon,Korea</h4>
+                          <div id="picframe_proj">
+                          <ul class="picframebach_proj">
+                            <li><h4>Samsung Electronics Pvt Ltd, Suwon, Korea</h4></li>
+                            <li>1. Developed and ported accessory detection driver for headset and headset with Mic.</li>
+                            <li>2. Developed battery driver SPA and ported MUIC(RT8973 IC) and charging/fuelgauge(SPRD PMIC internal) drivers.</li>
+                            <li>3.  Implemented faulty battery detection to prevent unpredictable behavior when faulty battery i.e a battery with any of the three terminals(+ve,-ve or vf ) damaged, is inserted.</li>
+                          </ul>
+                          </div>
+                        </div>
+                        <div class=" col-md-12 project" id="tshark"><h4>Tshark/Pike(SC7730/SC7727) SoC </h4>
+                          <div id="picframe_proj">
+                          <ul class="picframebach_proj">
+                            <li><h4>Samsung Engineering labs, Noida, India</h4></li>
+                            <li>1. Developed and maintained the accessory detection of Silicon Mitus MUIC(SM5504) and charging IC SM5701 Sub PMIC driver along with sec-battery module</li>
+                            <li>2. Implemented faulty battery detection through PMIC(SC2723s) ADC block.</li>
+                            <li>3. Stablized LDOs and Regulators voltages which caused unpredictable kernel panics in the PMIC(SC2723s)</li>
+                            <li>4. Debugged issues with vibrator driver.</li>
+                          </ul>
+                          </div>
+                        </div>
+                    </div>       
+
+
+
+                </div>
+                
+              </div>  <!--row -->
+            </div>  <!-- jumbotron -->
 
 
 
@@ -93,7 +179,7 @@
                   <hr/>
                 </div>
                 <div class="col-md-12 workex">
-                  <div class="col-md-10 col-md-offset-1">
+                  <div class="col-md-10 col-md-offset-1 experience">
                   <div class="col-md-5"> <img class = "img-responsive samsung" src="img/samsung.jpg"></div>
                   <div class="col-md-7 workexdesc">
                   <h2> Samsung Research Institute, Noida, India </h2>
@@ -262,6 +348,38 @@
                  $(".courses").slideToggle("slow");
                 $("#picframe #asu").slideToggle("slow");
               });
+
+              $("#meetme").click(function() {
+                $("#meetme  .picframebach_proj ul").fadeIn(1000);
+                $("#meetme .picframebach_proj").slideToggle("slow");
+              });
+
+              $("#opencl").click(function() {
+                $("#opencl .picframebach_proj ul").fadeIn(1000);
+                $("#opencl .picframebach_proj").slideToggle("slow");
+              });
+
+                $("#shark").click(function() {
+                $("#shark .picframebach_proj ul").fadeIn(1000);
+                $("#shark .picframebach_proj").slideToggle("slow");
+              });
+
+                $("#kanas").click(function() {
+                $("#kanas .picframebach_proj ul").fadeIn(1000);
+                $("#kanas .picframebach_proj").slideToggle("slow");
+              });
+
+                  $("#corsicave").click(function() {
+                $("#corsicave .picframebach_proj ul").fadeIn(1000);
+                $("#corsicave .picframebach_proj").slideToggle("slow");
+              });
+
+
+                $("#tshark").click(function() {
+                $("#tshark .picframebach_proj ul").fadeIn(1000);
+                $("#tshark .picframebach_proj").slideToggle("slow");
+              });
+
 
             });
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
