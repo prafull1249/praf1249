@@ -89,6 +89,7 @@ p{
 }
 
 .jumbotron{
+	background:#f5f5f5  url(../img/linen_white.png) repeat;
 	border-radius: 0px;
 	min-height: 370px;	
 	width: 100%;
@@ -106,13 +107,15 @@ div.col-md-12.education, div.col-md-12.workex{
 	padding-bottom: 50px;
 }
 
-.workexdesc{
-	padding-top: 10px;
-}
 
 .workex li{
-	max-width: 600px;
-	padding: 20px 20px 20px 20px;
+	color: #111;
+	max-width: 800px;
+	padding: 5px 5px 5px 5px;
+}
+
+.workex .col-md-10 .col-md-7 h2, .workex  .col-md-10 .col-md-7 p{
+	color: #111;
 }
 
 div.col-md-12.workex{
@@ -123,6 +126,8 @@ div.col-md-12.workex{
 }
 
 .samsung{
+	min-height: 500px;
+	min-width: 500px;
 	border-radius: 150px;
 }
 
@@ -184,7 +189,7 @@ div#bachelors h3,div#masters h3{
 }
 
 .jumbotron h1{
-	font-size: 80px;
+	font-size: 70px;
     text-shadow: 2px 2px 5px #000;
     margin-top: 75px;
     margin-bottom: 15px;
@@ -221,7 +226,7 @@ div#bachelors h3,div#masters h3{
 
 
 .jumbotron.alternate {
-	background:#333;
+	background:#333  url(../img/texture_back.jpg) repeat;
 }
 
 .jumbotron.alternate h1, .jumbotron.alternate p{
@@ -299,12 +304,51 @@ div#bachelors h3,div#masters h3{
 }
 #carousel-example-generic, .carousel-inner,.carousel-inner .item, .carousel-inner .item img{
 	max-height: 540px;
-	max-width: 800px;
 	margin-right: 0px;
+	width: 100%;
 }
 
 .carousel-inner .item.active{
 	border-color: #111;
 	border:4px;
+}
 
+.carousel-caption h3{
+	color:#f5f5f5;
+}
+
+.technicalskills .skillitem h3{
+	font-size: 24px;
+	color: #f5f5f5;
+}
+
+.technicalskills {
+	text-align: center;
+}
+
+.technicalskills .skillitem {
+	font-size: 24px;
+	border-radius: 5px;
+	background:#555;
+	border-color: #111;
+	border:60px;
+	margin: 20px;
+	color: #f5f5f5;
+	min-height: 250px;
+}
+
+.row2 .technicalskills .skillitem {
+	font-size: 24px;
+	border-radius: 5px;
+	background:#555;
+	border-color: #111;
+	border:60px;
+	margin: 20px;
+	color: #f5f5f5;
+	min-height: 100px;
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
 }
