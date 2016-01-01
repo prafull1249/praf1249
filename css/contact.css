@@ -11,7 +11,7 @@ html{
 }
 
 body{
-	background: url("../img/linen_white.png") #f5f5f5 repeat;
+	background: none;
 	line-height: 1.5;
 	color: #f5f5f5;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -83,7 +83,13 @@ p{
 	background-color: #ccc;
 }
 
-
+.jumbotron{
+	border-radius: 0px;
+	min-height: 810px;
+	width: 100%;
+	color: #FFF;
+	margin-bottom: 0px;
+}
 
 .jumbotron.homeback{
 	background: transparent url("../img/back.jpg") no-repeat scroll center center / cover;
@@ -95,9 +101,9 @@ p{
 .jumbotron h1{
 	font-size: 80px;
     text-shadow: 2px 2px 5px #000;
-    margin-top: 25px;
-    margin-bottom: 35px;
-    color: #f5f5f5;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
 .jumbotron h3{
@@ -185,49 +191,17 @@ p{
 	background:#111 ;
 }
 
-.modal-dialog {}
-.thumbnail {margin-bottom:6px;}
-
-.carousel-control.left,.carousel-control.right{
-  background-image:none;
-  margin-top:10%;
-  width:5%;
+.contact-infos, .contact-infos ul li{
+	color: #333;
+	list-style: none;
+	font-size: 20px;
 }
 
-.image{
-	padding: 1px 1px 1px 1px;
-	margin-bottom: 10px;
-
-	}
-.divimages2{
-	padding: 8px;
-}
-.image a img{
-
-   max-width: 270px;
-   min-height: 350px;
-
-
-}
-.gallery{
-	text-align: justify;
-	display: block;
-}
-
-.jumbotron{
-	background: url("../img/texture_back.jpg") repeat;
-	padding: 10px;
+#map{
+	height: 550px;
+	background: #CCC;
 	border:5px;
+	border-color: #f5f5f5;
 	border-style: ridge;
-	border-radius: 5px;
-	width: 100%;
-	color: #FFF;
 
-	margin: 20px 20px 20px 20px;
-}
-
-.img-thumbnail{
-    box-shadow: 5px 5px 5px #000;
-    border:2px #333;
-    border-style: ridge;
 }
