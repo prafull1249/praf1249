@@ -183,7 +183,8 @@ p{
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .sitefooter{
