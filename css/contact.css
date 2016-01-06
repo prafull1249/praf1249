@@ -6,7 +6,7 @@
 html{
 	background: #383838 url(../img/abstract-bg.svg) bottom right no-repeat;
 	
-	min-height: 2000px;
+
 	background-position:fixed; /*image doesnot scroll with the scroll bar*/
 	overflow-y: scroll; /*sets the scrollbar in the y direction*/
 }
