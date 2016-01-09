@@ -57,6 +57,10 @@ p{
 		border-radius: 5px;
 		background-color: #625D6A;
 	}
+	.jumbotron.homeback{
+	background: none ;
+}
+
 }
 
 .container-fluid .navigation{
@@ -94,6 +98,11 @@ p{
 
 .jumbotron.homeback{
 	background: transparent url("../img/back.jpg") no-repeat scroll center center / cover;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-position: center;
 }
 
 .jumbotron hr{
@@ -144,6 +153,7 @@ p{
 	.jumbotron.lead{
 		font-size: 15px;
 	}
+
 }
 .copyright{
     text-align: center;
